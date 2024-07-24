@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_totals",
+  "info": {
+    "singularName": "order-total",
+    "pluralName": "order-totals",
+    "displayName": "order-total",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "today": {
+      "type": "integer"
+    },
+    "thismonth": {
+      "type": "integer"
+    },
+    "total": {
+      "type": "integer"
+    }
+  }
+}

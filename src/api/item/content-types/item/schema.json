@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "items",
+  "info": {
+    "singularName": "item",
+    "pluralName": "items",
+    "displayName": "item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    },
+    "stockUnit": {
+      "type": "integer"
+    },
+    "lowStockAlert": {
+      "type": "integer"
+    },
+    "totalOrder": {
+      "type": "integer"
+    },
+    "returnRate": {
+      "type": "float"
+    },
+    "damageRate": {
+      "type": "float"
+    }
+  }
+}

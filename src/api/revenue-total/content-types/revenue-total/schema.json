@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "revenue_totals",
+  "info": {
+    "singularName": "revenue-total",
+    "pluralName": "revenue-totals",
+    "displayName": "revenue-total"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "revenue_today": {
+      "type": "integer"
+    },
+    "collection_today": {
+      "type": "integer"
+    },
+    "unpaid_today": {
+      "type": "integer"
+    },
+    "revenue_month": {
+      "type": "integer"
+    },
+    "collection_month": {
+      "type": "integer"
+    },
+    "unpaid_month": {
+      "type": "integer"
+    }
+  }
+}

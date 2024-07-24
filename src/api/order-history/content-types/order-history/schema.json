@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_histories",
+  "info": {
+    "singularName": "order-history",
+    "pluralName": "order-histories",
+    "displayName": "Order-history",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "month": {
+      "type": "string"
+    },
+    "iPhone14": {
+      "type": "integer"
+    },
+    "iPhone15": {
+      "type": "integer"
+    },
+    "iPhone15Pro": {
+      "type": "integer"
+    },
+    "iPhoneSE": {
+      "type": "integer"
+    },
+    "iPadPro": {
+      "type": "integer"
+    },
+    "iPadAir": {
+      "type": "integer"
+    },
+    "iPad": {
+      "type": "integer"
+    }
+  }
+}
